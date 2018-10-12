@@ -7,12 +7,22 @@
 //
 
 #include <iostream>
+#include <istream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+    
+    int coins = 0;
+    char difficulty;
+    
     // insert code here...
-    cout << "Hello, World!\n";
-    cout << "TheGawdCodingSquad\n";
+    cout << "Made by TheGawdCodingSquad!\n";
+    
+    cout << "Choose a difficulty (E,M,H) ...\n";
+    cin >> difficulty;
+    
+    cout << difficulty << '\n';
+    cout << "Coins left: " << coins;
     return 0;
 }
